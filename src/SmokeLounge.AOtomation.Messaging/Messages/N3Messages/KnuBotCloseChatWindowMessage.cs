@@ -18,7 +18,7 @@ namespace SmokeLounge.AOtomation.Messaging.Messages.N3Messages
     using SmokeLounge.AOtomation.Messaging.Serialization.MappingAttributes;
 
     [AoContract((int)N3MessageType.KnuBotCloseChatWindow)]
-    public class KnuBotCloseChatWindowMessage : N3Message
+    public class KnuBotCloseChatWindowMessage : N3Message, IPacket
     {
         #region Constructors and Destructors
 

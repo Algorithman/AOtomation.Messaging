@@ -17,7 +17,7 @@ namespace SmokeLounge.AOtomation.Messaging.Messages.SystemMessages
     using SmokeLounge.AOtomation.Messaging.Serialization.MappingAttributes;
 
     [AoContract((int)SystemMessageType.DeleteCharacter)]
-    public class DeleteCharacterMessage : SystemMessage
+    public class DeleteCharacterMessage : SystemMessage, IPacket
     {
         #region Constructors and Destructors
 

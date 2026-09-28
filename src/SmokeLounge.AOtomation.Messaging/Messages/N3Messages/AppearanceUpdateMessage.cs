@@ -19,7 +19,7 @@ namespace SmokeLounge.AOtomation.Messaging.Messages.N3Messages
     using SmokeLounge.AOtomation.Messaging.Serialization.MappingAttributes;
 
     [AoContract((int)N3MessageType.AppearanceUpdate)]
-    public class AppearanceUpdateMessage : N3Message
+    public class AppearanceUpdateMessage : N3Message, IPacket
     {
         #region Constructors and Destructors
 

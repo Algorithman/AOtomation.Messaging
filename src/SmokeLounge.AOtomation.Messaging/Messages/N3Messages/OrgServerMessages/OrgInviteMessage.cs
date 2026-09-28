@@ -17,7 +17,7 @@ namespace SmokeLounge.AOtomation.Messaging.Messages.N3Messages.OrgServerMessages
     using SmokeLounge.AOtomation.Messaging.Serialization.MappingAttributes;
 
     [AoContract((byte)OrgServerMessageType.OrgInvite)]
-    public class OrgInviteMessage : OrgServerMessage
+    public class OrgInviteMessage : OrgServerMessage, IPacket
     {
         #region Constructors and Destructors
 

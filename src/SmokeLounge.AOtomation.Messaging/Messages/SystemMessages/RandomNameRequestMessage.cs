@@ -18,7 +18,7 @@ namespace SmokeLounge.AOtomation.Messaging.Messages.SystemMessages
     using SmokeLounge.AOtomation.Messaging.Serialization.MappingAttributes;
 
     [AoContract((int)SystemMessageType.RandomNameRequest)]
-    public class RandomNameRequestMessage : SystemMessage
+    public class RandomNameRequestMessage : SystemMessage, IPacket
     {
         #region Constructors and Destructors
 

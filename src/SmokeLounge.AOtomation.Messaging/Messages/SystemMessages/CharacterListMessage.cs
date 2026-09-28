@@ -19,7 +19,7 @@ namespace SmokeLounge.AOtomation.Messaging.Messages.SystemMessages
     using SmokeLounge.AOtomation.Messaging.Serialization.MappingAttributes;
 
     [AoContract((int)SystemMessageType.CharacterList)]
-    public class CharacterListMessage : SystemMessage
+    public class CharacterListMessage : SystemMessage, IPacket
     {
         #region Constructors and Destructors
 

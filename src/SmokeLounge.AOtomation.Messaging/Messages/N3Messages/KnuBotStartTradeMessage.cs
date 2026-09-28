@@ -19,7 +19,7 @@ namespace SmokeLounge.AOtomation.Messaging.Messages.N3Messages
     using SmokeLounge.AOtomation.Messaging.Serialization.MappingAttributes;
 
     [AoContract((int)N3MessageType.KnuBotStartTrade)]
-    public class KnuBotStartTradeMessage : N3Message
+    public class KnuBotStartTradeMessage : N3Message, IPacket
     {
         #region Constructors and Destructors
 

@@ -19,7 +19,7 @@ namespace SmokeLounge.AOtomation.Messaging.Messages.SystemMessages
     using SmokeLounge.AOtomation.Messaging.Serialization.MappingAttributes;
 
     [AoContract((int)SystemMessageType.ZoneInfo)]
-    public class ZoneInfoMessage : SystemMessage
+    public class ZoneInfoMessage : SystemMessage, IPacket
     {
         #region Constructors and Destructors
 

@@ -19,7 +19,7 @@ namespace SmokeLounge.AOtomation.Messaging.Messages.SystemMessages
     using SmokeLounge.AOtomation.Messaging.Serialization.MappingAttributes;
 
     [AoContract((int)SystemMessageType.ZoneRedirection)]
-    public class ZoneRedirectionMessage : SystemMessage
+    public class ZoneRedirectionMessage : SystemMessage, IPacket
     {
         #region Constructors and Destructors
 

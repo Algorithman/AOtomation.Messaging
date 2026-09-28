@@ -17,7 +17,7 @@ namespace SmokeLounge.AOtomation.Messaging.Messages.SystemMessages
     using SmokeLounge.AOtomation.Messaging.Serialization.MappingAttributes;
 
     [AoContract((int)SystemMessageType.ServerSalt)]
-    public class ServerSaltMessage : SystemMessage
+    public class ServerSaltMessage : SystemMessage, IPacket
     {
         #region Constructors and Destructors
 

@@ -17,7 +17,7 @@ namespace SmokeLounge.AOtomation.Messaging.Messages.SystemMessages
     using SmokeLounge.AOtomation.Messaging.Serialization.MappingAttributes;
 
     [AoContract((int)SystemMessageType.NameInUse)]
-    public class NameInUseMessage : SystemMessage
+    public class NameInUseMessage : SystemMessage, IPacket
     {
         #region Constructors and Destructors
 

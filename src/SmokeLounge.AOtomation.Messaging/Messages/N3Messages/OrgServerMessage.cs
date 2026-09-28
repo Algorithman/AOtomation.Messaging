@@ -20,7 +20,7 @@ namespace SmokeLounge.AOtomation.Messaging.Messages.N3Messages
 
     [AoContract((int)N3MessageType.OrgServer)]
     [AoKnownType(26, IdentifierType.Byte)]
-    public abstract class OrgServerMessage : N3Message
+    public abstract class OrgServerMessage : N3Message, IPacket
     {
         #region Constructors and Destructors
 

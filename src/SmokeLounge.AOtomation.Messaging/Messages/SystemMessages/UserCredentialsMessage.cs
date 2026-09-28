@@ -18,7 +18,7 @@ namespace SmokeLounge.AOtomation.Messaging.Messages.SystemMessages
     using SmokeLounge.AOtomation.Messaging.Serialization.MappingAttributes;
 
     [AoContract((int)SystemMessageType.UserCredentials)]
-    public class UserCredentialsMessage : SystemMessage
+    public class UserCredentialsMessage : SystemMessage, IPacket
     {
         #region Constructors and Destructors
 

@@ -17,7 +17,7 @@ namespace SmokeLounge.AOtomation.Messaging.Messages.SystemMessages
     using SmokeLounge.AOtomation.Messaging.Serialization.MappingAttributes;
 
     [AoContract((int)SystemMessageType.SelectCharacter)]
-    public class SelectCharacterMessage : SystemMessage
+    public class SelectCharacterMessage : SystemMessage, IPacket
     {
         #region Constructors and Destructors
 

@@ -18,7 +18,7 @@ namespace SmokeLounge.AOtomation.Messaging.Messages.N3Messages
     using SmokeLounge.AOtomation.Messaging.Serialization.MappingAttributes;
 
     [AoContract((int)N3MessageType.CharDCMove)]
-    public class CharDCMoveMessage : N3Message
+    public class CharDCMoveMessage : N3Message, IPacket
     {
         #region Constructors and Destructors
 

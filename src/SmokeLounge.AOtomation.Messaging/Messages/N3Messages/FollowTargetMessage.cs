@@ -18,7 +18,7 @@ namespace SmokeLounge.AOtomation.Messaging.Messages.N3Messages
     using SmokeLounge.AOtomation.Messaging.Serialization.MappingAttributes;
 
     [AoContract((int)N3MessageType.FollowTarget)]
-    public class FollowTargetMessage : N3Message
+    public class FollowTargetMessage : N3Message, IPacket
     {
         #region Constructors and Destructors
 

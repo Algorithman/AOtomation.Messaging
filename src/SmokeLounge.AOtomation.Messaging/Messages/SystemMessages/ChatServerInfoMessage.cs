@@ -18,7 +18,7 @@ namespace SmokeLounge.AOtomation.Messaging.Messages.SystemMessages
     using SmokeLounge.AOtomation.Messaging.Serialization.MappingAttributes;
 
     [AoContract((int)SystemMessageType.ChatServerInfo)]
-    public class ChatServerInfoMessage : SystemMessage
+    public class ChatServerInfoMessage : SystemMessage, IPacket
     {
         #region Constructors and Destructors
 
